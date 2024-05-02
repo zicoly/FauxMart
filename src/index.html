@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Lovefem</title>
+</head>
+
+<body>
+
+  <header class="w-full" id="header">
+
+    <div class="e-store" id="eStore">
+      <span>E-Store</span>
+    </div>
+
+    <div class="main-nav flex" id="mainNav">
+
+      <div class="main-logo">
+        <h1 class="nav-logo_name font-bold">Lovefem</h1>
+      </div>
+
+      <div class="search-area flex ml-auto mr-auto">
+        <span class="categories pl-4 pr-2">All Categories
+          <span class="arrow">▾</span>
+        </span>
+        <input type="text" placeholder="Search here" />
+        <button class="search pr-4 pl-4">search</button>
+      </div>
+
+      <div class="user-section ml-auto">
+        <span class="icon-container">
+          <i class="bi bi-heart"></i>
+          Your Wishlist
+        </span>
+        <span class="icon-container">
+          <i class="bi bi-cart3"></i>
+          Your Cart
+        </span>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main>
+    <div class="video-background-quote flex">
+      <video autoplay muted loop class="video-bg">
+        <source src="videos/Fashion.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <blockquote class="mr-auto ml-auto text-center">
+        Discover Your Style
+        <blockquote>
+          Explore the Latest Trends in Fashion and Electronics.
+        </blockquote>
+      </blockquote>
+    </div>
+
+    <div class="list-icons pl-20 pr-20 mt-4 flex">
+      <div class="icon-info">
+        <i class="bi bi-truck"></i>
+        <div class="text">
+          <span class="text-heading">Free delivery</span>
+          <br>
+          From $49.99
+        </div>
+      </div>
+      <div class="icon-info">
+        <i class="bi bi-people"></i>
+        <div class="text">
+          <span class="text-heading">Support 24/7</span>
+          <br>
+          Online 24 Hours
+        </div>
+      </div>
+      <div class="icon-info">
+        <i class="bi bi-box-arrow-left"></i>
+        <div class="text">
+          <span class="text-heading">Free return</span>
+          <br>
+          365 A Day
+        </div>
+      </div>
+      <div class="icon-info">
+        <i class="bi bi-credit-card"></i>
+        <div class="text">
+          <span class="text-heading">Payment Method</span>
+          <br>
+          Secure Payment
+        </div>
+      </div>
+      <div class="icon-info">
+        <i class="bi bi-wallet"></i>
+        <div class="text last-child">
+          <span class="text-heading">Big saving</span>
+          <br>
+          Weekend Sales
+        </div>
+      </div>
+    </div>
+
+    <div class="shopping-container">
+      <div class="container ml-20 mr-20 mt-20">
+        <h2 class="pl-4">Shop By Categories</h2>
+      </div>
+
+      <div class="products" id="products">
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close" id="close">&times;</span>
+            <h2 class="modal-title">Product Details</h2>
+            <p class="modal-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-white py-24">
+    <div class="footer-container mb-16">
+      <div class="footer-section">
+        <h3 class="text-lg mb-6 font-semibold">Lovefem</h3>
+        <p class="inspiration text-center lg:text-left">Empowering self-expression and embracing diversity. Join us on a
+          journey where every purchase makes a positive impact. Together, let's create a world where beauty knows no
+          bounds.</p>
+      </div>
+      <div class="footer-section">
+        <h3 class="text-lg mb-6 font-semibold">Product</h3>
+        <ul class="text-center lg:text-left">
+          <li><a href="#">Men's clothing</a></li>
+          <li><a href="#">Jewelery</a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Women's clothing</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3 class="text-lg mb-6 font-semibold">Company</h3>
+        <p><a href="#">About Us</a></p>
+        <p><a href="#">Sign-in</a></p>
+        <p><a href="#">Contact Us</a></p>
+      </div>
+      <div class="footer-section">
+        <h3 class="text-lg mb-6 font-semibold">Feedback</h3>
+        <p><a href="#">Leave a Feedback</a></p>
+        <p>Email: info@example.com</p>
+        <p>Phone: +123456789</p>
+        <br>
+        <p>Address: 123 Main St, City, Country</p>
+      </div>
+    </div>
+    <div class="footer-end flex justify-center items-center mt-8">
+      <p class="">© 2024 Lovefem. All rights reserved.</p>
+      <p class="underline"><a href="#">Privacy Policy</a></p>
+      <p class="underline"><a href="#">Terms of Service</a></p>
+      <div class="social-icons flex">
+        <a href="#" class="ml-4"><i class="bi bi-facebook text-2xl"></i></a>
+        <a href="#" class="ml-4"><i class="bi bi-twitter text-2xl"></i></a>
+        <a href="#" class="ml-4"><i class="bi bi-instagram text-2xl"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
